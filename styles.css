@@ -68,3 +68,7 @@ p, h1 {
 .main-text {
     color: hsl(212, 21%, 14%);
 }
+
+.cash-black {
+    text-decoration: line-through;
+}
