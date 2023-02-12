@@ -3,19 +3,22 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-.main-image, .all-box, body, .cash, .texts {
+.main-image, .all-box, body, .cash, .texts, button {
     display: flex;
 }
 
 .all-box {
-    gap: 20px;
     width: 600px;
     height: 450px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .main-image {
@@ -25,6 +28,7 @@ body {
 
 .long-text {
     font-size: 14px;
+    color: hsl(158, 36%, 37%);
 }
 
 .cash {
@@ -33,5 +37,22 @@ body {
 
 .texts {
     flex-direction: column;
+    padding: 30px;
     justify-content: space-between;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    margin: 0px;
+    border-radius: 10px;
+    color:  hsl(0, 0%, 100%);
+    border: 0px;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+p, h1 {
+    margin: 0px;
 }
