@@ -8,15 +8,30 @@ body {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-.main-image, .all-box, body {
+.main-image, .all-box, body, .cash, .texts {
     display: flex;
 }
 
 .all-box {
     gap: 20px;
+    width: 600px;
+    height: 450px;
 }
 
 .main-image {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 450px;
+}
+
+.long-text {
+    font-size: 14px;
+}
+
+.cash {
+    gap: 20px;
+}
+
+.texts {
+    flex-direction: column;
+    justify-content: space-between;
 }
